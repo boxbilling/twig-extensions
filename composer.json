@@ -1,0 +1,20 @@
+{
+    "name": "twig/boxbilling",
+    "description": "Additional Twig extensions for BoxBilling",
+    "keywords": ["boxbilling"],
+    "homepage": "https://github.com/boxbilling/twig-extensions",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrius Putna",
+            "email": "fordnox@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "1.*"
+    },
+    "autoload": {
+        "psr-0": { "Twig_Extensions_": "lib/" }
+    }
+}
